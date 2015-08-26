@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function q(){
+			var a = 5;
+			try{
+				a()
+			}catch(e){
+				console.log(e);
+				e instanceof Error;
+			};
+			console.log('you!');
+		}
+		q();
+	</script>
+</body>
+</html>
